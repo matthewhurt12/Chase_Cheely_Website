@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Cheely Landscaping - Professional Lawn Care Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Chase Cheely Landscaping</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="testimonials.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="cta-button">Get Quote</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION - Grab Attention -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Transform Your Lawn Into a Masterpiece</h1>
+                <p>Professional lawn care that saves you time while creating the outdoor space you've always dreamed of</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="cta-button">Get Free Quote</a>
+                    <a href="tel:555-123-4567" class="secondary-button">Call (555) 123-4567</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. PROBLEM/SOLUTION - Address Pain Points -->
+        <section class="problem-solution">
+            <div class="container">
+                <div class="problem-solution-grid">
+                    <div class="problem-side">
+                        <h2>Tired of Spending Your Weekends on Yard Work?</h2>
+                        <ul class="problem-list">
+                            <li>🕐 No time for lawn maintenance</li>
+                            <li>🌧️ Weather delays your schedule</li>
+                            <li>🔧 Equipment is expensive to buy/maintain</li>
+                            <li>😰 Worried about doing it wrong</li>
+                            <li>💸 Inconsistent results waste money</li>
+                        </ul>
+                    </div>
+                    <div class="solution-side">
+                        <h2>We Handle Everything So You Don't Have To</h2>
+                        <ul class="solution-list">
+                            <li>✅ Reclaim your weekends</li>
+                            <li>✅ Professional results guaranteed</li>
+                            <li>✅ All equipment & supplies included</li>
+                            <li>✅ Expert knowledge & techniques</li>
+                            <li>✅ Consistent, beautiful results</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SOCIAL PROOF - Build Credibility -->
+        <section class="stats-section">
+            <div class="container">
+                <h2>Trusted by Hundreds of Happy Homeowners</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="500" data-suffix="+">0</div>
+                        <h3>Happy Clients</h3>
+                        <p>Satisfied customers across the region</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="15" data-suffix="+">0</div>
+                        <h3>Years Experience</h3>
+                        <p>Professional lawn care expertise</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="98" data-suffix="%">0</div>
+                        <h3>Customer Retention</h3>
+                        <p>Clients who stay with us year after year</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="24" data-suffix="/7">0</div>
+                        <h3>Emergency Support</h3>
+                        <p>Available when you need us most</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. CORE SERVICES - What We Do -->
+        <section class="services-preview">
+            <div class="container">
+                <h2>Complete Lawn Care Services</h2>
+                <p class="section-subtitle">From regular maintenance to landscape transformation</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🌿</div>
+                        <h3>Weekly Lawn Care</h3>
+                        <p>Mowing, edging, trimming, and cleanup to keep your lawn looking perfect every week.</p>
+                        <a href="services.html" class="service-link">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🌱</div>
+                        <h3>Landscape Design</h3>
+                        <p>Custom design and installation to transform your outdoor space into something special.</p>
+                        <a href="services.html" class="service-link">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🌳</div>
+                        <h3>Tree & Shrub Care</h3>
+                        <p>Professional pruning, trimming, and maintenance for healthy, beautiful plants.</p>
+                        <a href="services.html" class="service-link">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💧</div>
+                        <h3>Irrigation Systems</h3>
+                        <p>Smart sprinkler installation and maintenance for optimal water efficiency.</p>
+                        <a href="services.html" class="service-link">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. HOW IT WORKS - Simple Process -->
+        <section class="how-it-works">
+            <div class="container">
+                <h2>How It Works - Simple as 1, 2, 3</h2>
+                <div class="process-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Get Your Free Quote</h3>
+                            <p>Quick call or online form. We'll assess your property and provide a detailed, no-obligation quote.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Schedule Your Service</h3>
+                            <p>Choose your service schedule. We'll handle all the details and send reminders before each visit.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Enjoy Your Beautiful Lawn</h3>
+                            <p>Relax while we transform your property. Quality guaranteed with every service visit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. WHY CHOOSE US - Competitive Advantages -->
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>Why Chase Cheely Landscaping?</h2>
+                <div class="advantages-grid">
+                    <div class="advantage">
+                        <div class="advantage-icon">🏆</div>
+                        <h3>Award-Winning Service</h3>
+                        <p>Recognized as the top landscaping company in the region for three consecutive years.</p>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-icon">🌱</div>
+                        <h3>Eco-Friendly Practices</h3>
+                        <p>Sustainable methods and organic products that protect your family, pets, and environment.</p>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-icon">⚡</div>
+                        <h3>Reliable & On-Time</h3>
+                        <p>We respect your schedule and always arrive when promised. Dependable service you can count on.</p>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-icon">💰</div>
+                        <h3>Transparent Pricing</h3>
+                        <p>No hidden fees or surprise charges. You'll know exactly what you're paying before we start.</p>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-icon">🛡️</div>
+                        <h3>Fully Licensed & Insured</h3>
+                        <p>Complete protection and peace of mind with every service visit.</p>
+                    </div>
+                    <div class="advantage">
+                        <div class="advantage-icon">📞</div>
+                        <h3>Local & Responsive</h3>
+                        <p>Based in your community with fast response times and personalized service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. BEFORE & AFTER - Visual Proof -->
+        <section class="before-after">
+            <div class="container">
+                <h2>See the Amazing Transformations</h2>
+                <p class="section-subtitle">Real results from real customers</p>
+                <div class="transformations-grid">
+                    <div class="transformation-card">
+                        <div class="before-after-images">
+                            <div class="before-image">
+                                <span class="image-label">BEFORE</span>
+                                <div class="placeholder-image before">🏚️</div>
+                            </div>
+                            <div class="after-image">
+                                <span class="image-label">AFTER</span>
+                                <div class="placeholder-image after">🏡</div>
+                            </div>
+                        </div>
+                        <div class="transformation-info">
+                            <h4>Overgrown to Outstanding</h4>
+                            <p>Complete lawn renovation with new landscaping design</p>
+                        </div>
+                    </div>
+                    <div class="transformation-card">
+                        <div class="before-after-images">
+                            <div class="before-image">
+                                <span class="image-label">BEFORE</span>
+                                <div class="placeholder-image before">🌾</div>
+                            </div>
+                            <div class="after-image">
+                                <span class="image-label">AFTER</span>
+                                <div class="placeholder-image after">🌿</div>
+                            </div>
+                        </div>
+                        <div class="transformation-info">
+                            <h4>Patchy to Perfect</h4>
+                            <p>Professional lawn care program with fertilization</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-center">
+                    <a href="gallery.html" class="secondary-button">View More Transformations</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. SERVICE AREAS - Geographic Coverage -->
+        <section class="service-areas">
+            <div class="container">
+                <h2>Proudly Serving Your Community</h2>
+                <p class="section-subtitle">Professional lawn care throughout the greater metropolitan area</p>
+                <div class="areas-grid">
+                    <div class="area-card">
+                        <h4>🏙️ Downtown</h4>
+                        <p>Urban properties & condominiums</p>
+                    </div>
+                    <div class="area-card">
+                        <h4>🏘️ Suburban Areas</h4>
+                        <p>Residential neighborhoods</p>
+                    </div>
+                    <div class="area-card">
+                        <h4>🏢 Business Districts</h4>
+                        <p>Commercial properties</p>
+                    </div>
+                    <div class="area-card">
+                        <h4>🏰 Gated Communities</h4>
+                        <p>Exclusive neighborhoods</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. TESTIMONIALS - Social Proof -->
+        <section class="testimonials-preview">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Chase and his team transformed our backyard into something magazine-worthy. Professional, reliable, and reasonably priced!"</p>
+                        <div class="testimonial-author">
+                            <strong>Sarah M.</strong>
+                            <span>Homeowner, Riverside</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Finally found a lawn care company I can trust. They show up when scheduled and do beautiful work every time."</p>
+                        <div class="testimonial-author">
+                            <strong>Mike R.</strong>
+                            <span>Homeowner, Oak Hill</span>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Worth every penny! Our property value increased and we get compliments from neighbors all the time."</p>
+                        <div class="testimonial-author">
+                            <strong>Jennifer L.</strong>
+                            <span>Homeowner, Pine Valley</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-center">
+                    <a href="testimonials.html" class="secondary-button">Read More Reviews</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. SEASONAL SERVICES - Comprehensive Offering -->
+        <section class="seasonal-services">
+            <div class="container">
+                <h2>Year-Round Lawn Care</h2>
+                <p class="section-subtitle">Professional service every season</p>
+                <div class="seasons-grid">
+                    <div class="season-card">
+                        <div class="season-icon">🌸</div>
+                        <h3>Spring</h3>
+                        <ul>
+                            <li>Spring cleanup</li>
+                            <li>Lawn aeration</li>
+                            <li>Fertilization programs</li>
+                            <li>New plantings</li>
+                        </ul>
+                    </div>
+                    <div class="season-card">
+                        <div class="season-icon">☀️</div>
+                        <h3>Summer</h3>
+                        <ul>
+                            <li>Weekly mowing</li>
+                            <li>Irrigation maintenance</li>
+                            <li>Pest control</li>
+                            <li>Garden maintenance</li>
+                        </ul>
+                    </div>
+                    <div class="season-card">
+                        <div class="season-icon">🍂</div>
+                        <h3>Fall</h3>
+                        <ul>
+                            <li>Leaf removal</li>
+                            <li>Fall fertilization</li>
+                            <li>Tree & shrub care</li>
+                            <li>Winter preparation</li>
+                        </ul>
+                    </div>
+                    <div class="season-card">
+                        <div class="season-icon">❄️</div>
+                        <h3>Winter</h3>
+                        <ul>
+                            <li>Snow removal</li>
+                            <li>Ice management</li>
+                            <li>Tree pruning</li>
+                            <li>Equipment maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. FINAL CTA - Drive Action -->
+        <section class="final-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready for the Lawn You've Always Wanted?</h2>
+                    <p>Join hundreds of satisfied customers who trust us with their lawn care needs</p>
+                    <div class="cta-buttons">
+                        <a href="contact.html" class="cta-button large">Get Your Free Quote Today</a>
+                        <div class="phone-cta">
+                            <span>or call us directly:</span>
+                            <a href="tel:555-123-4567" class="phone-number">(555) 123-4567</a>
+                        </div>
+                    </div>
+                    <div class="guarantees">
+                        <span>✅ Free Estimates</span>
+                        <span>✅ No Obligation</span>
+                        <span>✅ Licensed & Insured</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Chase Cheely Landscaping. All rights reserved.</p>
+            <p>Professional Lawn Care Services | Licensed & Insured</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">📘</a>
+                <a href="#" aria-label="Instagram">📷</a>
+                <a href="#" aria-label="Twitter">🐦</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
